@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={styles.container}>
       {isNargasActive && (
-        <video width="400" autoPlay>
+        <video width="100%" autoPlay>
           <source src="/assets/e-o-narga.mp4" type="video/mp4" />
           support no
         </video>
